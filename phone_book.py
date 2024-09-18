@@ -4,7 +4,6 @@ from contact import Contact
 import logging
 import csv
 import json
-import utils
 import os
 
 
@@ -13,6 +12,8 @@ class PhoneBook:
     def __init__(self, contacts_file='data/contacts.json'):
         self.contacts = []
         self.contacts_file = contacts_file
+        # Contact ID starts from 1
+        self.next_id = 1
         logging.basicConfig(filename='logs/phone_book.log', level=logging.INFO,
                             format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -30,25 +31,47 @@ class PhoneBook:
                 contacts_data = json.load(file)
                 self.contacts = [Contact.from_dict(data) for data in contacts_data]
             logging.info("Contacts loaded from file.")
+            # Update next_id to be one bigger than the maximum existing ID
+            self.update_next_id()
         else:
             self.contacts = []
             logging.warning("No existing contacts file found. Starting with an empty phone book.")
+
+    def update_next_id(self):
+        if self.contacts:
+            self.next_id = max(contact.contact_id for contact in self.contacts) + 1
+        else:
+            self.next_id = 1
 
     def add_contact(self, contact):
         self.contacts.append(contact)
         logging.info(f"Added contact: {contact.first_name} {contact.last_name}")
 
     def batch_import(self, csv_file_path):
+        """
+        Import contacts from a CSV file.
+
+        1. check whether there are duplicate contact ids (Primary Key)
+        2. implement duplicate contacts for user experience (Based on phone number, email or name)
+        """
         with open(csv_file_path, 'r') as file:
             reader = csv.DictReader(file)
             for row in reader:
                 try:
-                    contact = Contact(**row)
+                    contact = Contact.from_dict(row)
                     self.add_contact(contact)
                 except ValueError as e:
-                    logging.error(f"Error importing contact: {e}")
+                    logging.error(f"Error importing contact={row}, error={e}")
+        # make sure they aren't any duplicate contact id
+        # for simplicity, we just reassign all of them
+        start_id = 1
+        for contact in self.contacts:
+            contact.contact_id = start_id
+            start_id += 1
+        # remember to update the next id as well
+        self.update_next_id()
 
-    def get_contact_by_id(self, contact_id):
+    def get_contact_by_id(self, contact_id: int):
         for contact in self.contacts:
             if contact.contact_id == contact_id:
                 return contact
@@ -60,7 +83,10 @@ class PhoneBook:
         return results
 
     def get_next_contact_id(self):
-        return max(contact.contact_id for contact in self.contacts) + 1 if len(self.contacts) > 0 else 1
+        """self increment contact ids"""
+        contact_id = self.next_id
+        self.next_id += 1
+        return contact_id
 
     def update_contact(self, contact, **kwargs):
         contact.update(**kwargs)

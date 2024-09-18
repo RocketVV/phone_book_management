@@ -45,6 +45,8 @@ def main():
         elif choice == '4':
             delete_contacts_cli(phone_book)
         elif choice == '5':
+            view_contacts_cli(phone_book)
+        elif choice == '6':
             # save contacts data before we quit the application
             phone_book.save_contacts()
             print("Exiting the Phone Book Application. Goodbye!")
@@ -130,7 +132,12 @@ def update_contact_cli(phone_book):
         "\n--- Update Contact ---" +
         "\nEnter the Contact ID to update: "
     ).strip()
-    contact = phone_book.get_contact_by_id(contact_id)
+
+    if not contact_id.isdigit():
+        print("Invalid Contact ID. It must be an integer.")
+        return
+    contact = phone_book.get_contact_by_id(int(contact_id))
+
     if contact:
         print(f"Updating Contact: {contact.first_name} {contact.last_name}")
 
@@ -182,7 +189,10 @@ def delete_contacts_cli(phone_book):
     not_found_ids = []
     deleted_contact_ids = []
     for contact_id in contact_ids:
-        contact = phone_book.get_contact_by_id(contact_id)
+        if not contact_id.isdigit():
+            print("Invalid Contact ID. It must be an integer.")
+            return
+        contact = phone_book.get_contact_by_id(int(contact_id))
         if contact:
             phone_book.delete_contact(contact)
             deleted_contact_ids.append(contact_id)
@@ -195,6 +205,66 @@ def delete_contacts_cli(phone_book):
 
     if len(deleted_contact_ids) > 0:
         print("Contacts have been deleted successfully.")
+
+
+def view_contacts_cli(phone_book):
+    """CLI function to view contacts."""
+    while True:
+        choice = input(
+            "\n--- View Contacts ---" +
+            "\n1. View Contacts Sorted" +
+            "\n2. View Contacts Grouped" +
+            "\n3. View Contacts History Changes" +
+            "\n4. Back to Main Menu" +
+            "\n\nEnter your choice: "
+        ).strip()
+
+        if choice == '1':
+            sort_key = input("Sort by (first_name/last_name): ").strip()
+            if sort_key in ['first_name', 'last_name']:
+                contacts = phone_book.sort_contacts(key=sort_key)
+                utils.print_contacts(contacts)
+            else:
+                print("Invalid sort key.")
+        elif choice == '2':
+            groups = phone_book.group_contacts()
+            for initial, group in sorted(groups.items()):
+                print(f"\nContacts starting with '{initial}':")
+                utils.print_contacts(group)
+        elif choice == '3':
+            view_contact_history_cli(phone_book)
+        elif choice == '4':
+            break
+        else:
+            print("Invalid choice. Please try again.")
+
+
+def view_contact_history_cli(phone_book):
+    """CLI function to view the history of changes for a contact."""
+    contact_id = input(
+        "\n--- View Contact History ---" +
+        "\nEnter the Contact ID: "
+    ).strip()
+
+    if not contact_id.isdigit():
+        print("Invalid Contact ID. It must be an integer.")
+        return
+
+    contact = phone_book.get_contact_by_id(int(contact_id))
+    if contact:
+        if contact.history:
+            print(f"\nHistory for contact {contact.first_name} {contact.last_name} (ID: {contact.contact_id}):")
+            for record in contact.history:
+                print(f"\n---------------------------------")
+                print(
+                    f"\nTimestamp: {datetime.datetime.fromisoformat(record['timestamp']).strftime('%Y-%m-%d %H:%M:%S')}" +
+                    f"\nField Changed: {record['field']}" +
+                    f"\nOld Value: {record['old_value']}" +
+                    f"\nNew Value: {record['new_value']}")
+        else:
+            print("No history available for this contact.")
+    else:
+        print(f"No contact found with ID {contact_id}")
 
 
 if __name__ == '__main__':
