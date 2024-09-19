@@ -220,12 +220,8 @@ def view_contacts_cli(phone_book):
         ).strip()
 
         if choice == '1':
-            sort_key = input("Sort by (first_name/last_name): ").strip()
-            if sort_key in ['first_name', 'last_name']:
-                contacts = phone_book.sort_contacts(key=sort_key)
-                utils.print_contacts(contacts)
-            else:
-                print("Invalid sort key.")
+            contacts = phone_book.sort_contacts()
+            utils.print_contacts(contacts)
         elif choice == '2':
             groups = phone_book.group_contacts()
             for initial, group in sorted(groups.items()):

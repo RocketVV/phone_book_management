@@ -98,13 +98,14 @@ class PhoneBook:
 
     def search_contacts(self, query):
         pattern = re.compile(query, re.IGNORECASE)
-        return [c for c in self.contacts if pattern.search(c.first_name) or pattern.search(c.last_name)]
+        return [c for c in self.contacts if
+                pattern.search(c.first_name) or pattern.search(c.last_name) or pattern.search(c.phone_number)]
 
     def filter_contacts_by_date(self, start_date, end_date):
         return [c for c in self.contacts if start_date <= c.created_at <= end_date]
 
-    def sort_contacts(self, key='last_name'):
-        return sorted(self.contacts, key=lambda c: getattr(c, key))
+    def sort_contacts(self):
+        return sorted(self.contacts, key=lambda x: x.last_name)
 
     def group_contacts(self):
         groups = {}
