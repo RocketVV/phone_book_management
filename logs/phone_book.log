@@ -1,0 +1,372 @@
+2024-09-18 16:09:23,027 - INFO - Contacts loaded from file.
+2024-09-18 16:09:30,377 - INFO - Contacts saved to file.
+2024-09-18 16:09:42,759 - INFO - Contacts loaded from file.
+2024-09-18 16:10:42,182 - INFO - Added contact: hfiosa fnokjds
+2024-09-18 16:15:21,440 - INFO - Contacts saved to file.
+2024-09-18 16:17:00,650 - INFO - Contacts loaded from file.
+2024-09-18 16:18:13,715 - INFO - Contacts loaded from file.
+2024-09-18 16:22:04,456 - INFO - Contacts loaded from file.
+2024-09-18 16:22:30,614 - INFO - Contacts loaded from file.
+2024-09-18 16:36:15,597 - INFO - Contacts loaded from file.
+2024-09-18 19:45:16,471 - INFO - Contacts loaded from file.
+2024-09-18 19:45:52,525 - INFO - Updated contact: hfiosa fnokjds
+2024-09-18 19:46:37,214 - INFO - Updated contact jgg dsa: first_name changed from dsa to jgg
+2024-09-18 19:46:37,216 - INFO - Updated contact jgg faa: last_name changed from dsa to faa
+2024-09-18 19:46:37,216 - INFO - Updated contact: jgg faa
+2024-09-18 19:46:39,121 - INFO - Contacts saved to file.
+2024-09-18 19:46:53,687 - INFO - Contacts loaded from file.
+2024-09-18 19:47:25,568 - INFO - Contacts loaded from file.
+2024-09-18 19:48:26,039 - INFO - Contacts loaded from file.
+2024-09-18 19:48:53,807 - INFO - Contacts loaded from file.
+2024-09-18 19:49:22,580 - INFO - Contacts saved to file.
+2024-09-18 19:54:08,840 - INFO - Contacts loaded from file.
+2024-09-18 20:19:50,408 - INFO - Contacts loaded from file.
+2024-09-18 20:20:17,653 - INFO - Added contact: Anthony Howard
+2024-09-18 20:20:17,654 - INFO - Added contact: Jose Flores
+2024-09-18 21:01:07,803 - INFO - Added contact: Joshua Salinas
+2024-09-18 21:01:07,803 - INFO - Added contact: Debra Hamilton
+2024-09-18 21:01:07,803 - INFO - Added contact: Debbie Johnson
+2024-09-18 21:01:07,803 - INFO - Added contact: Jill Sanders
+2024-09-18 21:01:07,803 - INFO - Added contact: Stephanie Lynch
+2024-09-18 21:01:07,803 - INFO - Added contact: Stephen Wallace
+2024-09-18 21:01:07,803 - INFO - Added contact: Tristan Williams
+2024-09-18 21:01:07,803 - INFO - Added contact: Jessica Hill
+2024-09-18 21:01:07,803 - INFO - Added contact: Richard Adams
+2024-09-18 21:01:07,803 - INFO - Added contact: Jeffrey Kennedy
+2024-09-18 21:01:07,803 - INFO - Added contact: Laura Wallace
+2024-09-18 21:01:07,803 - INFO - Added contact: Jennifer Rogers
+2024-09-18 21:01:07,803 - INFO - Added contact: Phillip Cox
+2024-09-18 21:01:07,803 - INFO - Added contact: Vanessa Cox
+2024-09-18 21:01:07,803 - INFO - Added contact: Kaylee Drake
+2024-09-18 21:01:07,803 - INFO - Added contact: Derek Oneill
+2024-09-18 21:01:07,803 - INFO - Added contact: Paul Perez
+2024-09-18 21:01:07,803 - INFO - Added contact: Holly Reed
+2024-09-18 21:01:07,803 - INFO - Added contact: Amy Wilson
+2024-09-18 21:01:07,803 - INFO - Added contact: Frank Maddox
+2024-09-18 21:01:07,803 - INFO - Added contact: Stephen Harrington
+2024-09-18 21:01:07,803 - INFO - Added contact: Jamie Hunt
+2024-09-18 21:01:07,803 - INFO - Added contact: Kevin Davis
+2024-09-18 21:01:07,803 - INFO - Added contact: Donna Gonzales
+2024-09-18 21:01:07,803 - INFO - Added contact: Justin Ayala
+2024-09-18 21:01:07,803 - INFO - Added contact: Laura Mccarty
+2024-09-18 21:01:07,803 - INFO - Added contact: Kathryn Campbell
+2024-09-18 21:01:07,804 - INFO - Added contact: Natalie Bennett
+2024-09-18 21:01:07,804 - INFO - Added contact: Paul Payne
+2024-09-18 21:01:07,804 - INFO - Added contact: Rebecca Gonzalez
+2024-09-18 21:01:07,804 - INFO - Added contact: Robert Orr
+2024-09-18 21:01:07,804 - INFO - Added contact: Ethan Hall
+2024-09-18 21:01:07,804 - INFO - Added contact: Patrick Jones
+2024-09-18 21:01:07,804 - INFO - Added contact: Jeremy Calhoun
+2024-09-18 21:01:07,804 - INFO - Added contact: Christopher Gates
+2024-09-18 21:01:07,804 - INFO - Added contact: Deborah Bennett
+2024-09-18 21:02:46,669 - INFO - Contacts loaded from file.
+2024-09-18 21:02:54,587 - INFO - Added contact: Anthony Howard
+2024-09-18 21:02:54,588 - INFO - Added contact: Jose Flores
+2024-09-18 21:02:54,588 - INFO - Added contact: Connie Smith
+2024-09-18 21:02:54,588 - INFO - Added contact: Michael Banks
+2024-09-18 21:02:54,588 - INFO - Added contact: Brenda Wyatt
+2024-09-18 21:02:54,588 - INFO - Added contact: Raymond Chang
+2024-09-18 21:02:54,588 - INFO - Added contact: Raymond Floyd
+2024-09-18 21:02:54,588 - INFO - Added contact: Matthew House
+2024-09-18 21:02:54,588 - INFO - Added contact: Shane Mcneil
+2024-09-18 21:02:54,588 - INFO - Added contact: Christopher Thomas
+2024-09-18 21:02:54,588 - ERROR - Error importing contact={'id': '15', 'first_name': 'Christopher', 'last_name': 'Moore', 'phone_number': '(211) 85-1054', 'email_address': 'ccervantes@yahoo.com', 'address': '153 Joel Mill Suite 955\nNorth Josechester, MA 59021', 'created_at': '2023-01-27T16:16:13', 'updated_at': '2023-08-08T20:21:34'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:02:54,588 - INFO - Added contact: Jose Gregory
+2024-09-18 21:02:54,588 - INFO - Added contact: Anna Ramirez
+2024-09-18 21:02:54,588 - INFO - Added contact: Laura Perez
+2024-09-18 21:02:54,588 - INFO - Added contact: Elizabeth Coleman
+2024-09-18 21:02:54,588 - INFO - Added contact: Paul Bentley
+2024-09-18 21:02:54,588 - INFO - Added contact: Gina King
+2024-09-18 21:02:54,588 - INFO - Added contact: Andrew Scott
+2024-09-18 21:02:54,588 - INFO - Added contact: Scott James
+2024-09-18 21:02:54,588 - INFO - Added contact: Steven Clark
+2024-09-18 21:02:54,588 - INFO - Added contact: Jonathan Adams
+2024-09-18 21:02:54,588 - INFO - Added contact: William Perez
+2024-09-18 21:02:54,588 - INFO - Added contact: Curtis Levy
+2024-09-18 21:02:54,588 - INFO - Added contact: Marcus Wright
+2024-09-18 21:02:54,588 - INFO - Added contact: Kelly Patton
+2024-09-18 21:02:54,588 - INFO - Added contact: Natalie Evans
+2024-09-18 21:02:54,588 - INFO - Added contact: Joseph Austin
+2024-09-18 21:02:54,588 - INFO - Added contact: Victoria Davenport
+2024-09-18 21:02:54,588 - INFO - Added contact: Michael Mckee
+2024-09-18 21:02:54,588 - INFO - Added contact: Taylor Martinez
+2024-09-18 21:02:54,589 - INFO - Added contact: Terri Wall
+2024-09-18 21:02:54,589 - INFO - Added contact: April Potts
+2024-09-18 21:02:54,589 - INFO - Added contact: Sara Jones
+2024-09-18 21:02:54,589 - INFO - Added contact: Jennifer Johnson
+2024-09-18 21:02:54,589 - INFO - Added contact: Brian Rice
+2024-09-18 21:02:54,589 - INFO - Added contact: Nathaniel Simpson
+2024-09-18 21:02:54,589 - INFO - Added contact: Mark Taylor
+2024-09-18 21:02:54,589 - INFO - Added contact: Keith Jackson
+2024-09-18 21:02:54,589 - INFO - Added contact: Elizabeth Petty
+2024-09-18 21:02:54,589 - INFO - Added contact: Tracy Berry
+2024-09-18 21:02:54,589 - INFO - Added contact: Tanya Daugherty
+2024-09-18 21:02:54,589 - INFO - Added contact: Mason Gonzalez
+2024-09-18 21:02:54,589 - INFO - Added contact: Marie Singleton
+2024-09-18 21:02:54,589 - INFO - Added contact: Katie Hopkins
+2024-09-18 21:02:54,589 - INFO - Added contact: Marc Schmidt
+2024-09-18 21:02:54,589 - INFO - Added contact: Gary Hall
+2024-09-18 21:02:54,589 - INFO - Added contact: Andrew Bates
+2024-09-18 21:02:54,589 - INFO - Added contact: Robert Coleman
+2024-09-18 21:02:54,589 - INFO - Added contact: Charles Burns
+2024-09-18 21:02:54,589 - ERROR - Error importing contact={'id': '37', 'first_name': 'Michael', 'last_name': 'Terry', 'phone_number': '(544) 940-321', 'email_address': 'hamiltonchristine@hotmail.com', 'address': '1758 Krause Ports\nCarolynview, IL 42819', 'created_at': '2023-12-13T03:58:57', 'updated_at': '2020-07-03T20:13:11'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:02:54,589 - INFO - Added contact: Melanie Moore
+2024-09-18 21:02:54,589 - ERROR - Error importing contact={'id': '44', 'first_name': 'Jamie', 'last_name': 'Carter', 'phone_number': '(586) 4299-4443', 'email_address': 'garciajames@estrada-smith.org', 'address': '1457 Nicholas Center Apt. 347\nEast Deannaborough, MO 92285', 'created_at': '2021-12-25T05:45:24', 'updated_at': '2023-05-02T05:20:48'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:02:54,589 - INFO - Added contact: Spencer Owens
+2024-09-18 21:02:54,589 - INFO - Added contact: Joshua Villegas
+2024-09-18 21:02:54,589 - INFO - Added contact: Melissa Thompson
+2024-09-18 21:02:54,589 - INFO - Added contact: Joseph Warren
+2024-09-18 21:02:54,589 - INFO - Added contact: James Ellis
+2024-09-18 21:02:54,589 - INFO - Added contact: Linda Wells
+2024-09-18 21:02:54,589 - INFO - Added contact: Sherry Edwards
+2024-09-18 21:02:54,589 - INFO - Added contact: Jeffrey Chaney
+2024-09-18 21:02:54,589 - INFO - Added contact: Crystal Velazquez
+2024-09-18 21:02:54,589 - INFO - Added contact: Kayla Dominguez
+2024-09-18 21:02:54,589 - INFO - Added contact: Elizabeth Potter
+2024-09-18 21:02:54,589 - ERROR - Error importing contact={'id': '3', 'first_name': 'Heather', 'last_name': 'Dean', 'phone_number': '(697) 327-839', 'email_address': 'christophersmith@yahoo.com', 'address': '909 Brianna Harbor\nNew Stevemouth, KY 61729', 'created_at': '2021-11-02T16:22:18', 'updated_at': '2021-11-16T03:59:32'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:02:54,589 - INFO - Added contact: Joshua Salinas
+2024-09-18 21:02:54,589 - INFO - Added contact: Debra Hamilton
+2024-09-18 21:02:54,589 - INFO - Added contact: Debbie Johnson
+2024-09-18 21:02:54,589 - INFO - Added contact: Jill Sanders
+2024-09-18 21:02:54,589 - INFO - Added contact: Stephanie Lynch
+2024-09-18 21:02:54,589 - INFO - Added contact: Stephen Wallace
+2024-09-18 21:02:54,589 - INFO - Added contact: Tristan Williams
+2024-09-18 21:02:54,589 - INFO - Added contact: Jessica Hill
+2024-09-18 21:02:54,589 - INFO - Added contact: Richard Adams
+2024-09-18 21:02:54,589 - INFO - Added contact: Jeffrey Kennedy
+2024-09-18 21:02:54,589 - INFO - Added contact: Laura Wallace
+2024-09-18 21:02:54,589 - INFO - Added contact: Jennifer Rogers
+2024-09-18 21:02:54,589 - INFO - Added contact: Phillip Cox
+2024-09-18 21:02:54,590 - INFO - Added contact: Vanessa Cox
+2024-09-18 21:02:54,590 - INFO - Added contact: Kaylee Drake
+2024-09-18 21:02:54,590 - INFO - Added contact: Derek Oneill
+2024-09-18 21:02:54,590 - INFO - Added contact: Paul Perez
+2024-09-18 21:02:54,590 - INFO - Added contact: Holly Reed
+2024-09-18 21:02:54,590 - INFO - Added contact: Amy Wilson
+2024-09-18 21:02:54,590 - INFO - Added contact: Frank Maddox
+2024-09-18 21:02:54,590 - INFO - Added contact: Stephen Harrington
+2024-09-18 21:02:54,590 - INFO - Added contact: Jamie Hunt
+2024-09-18 21:02:54,590 - INFO - Added contact: Kevin Davis
+2024-09-18 21:02:54,590 - INFO - Added contact: Donna Gonzales
+2024-09-18 21:02:54,590 - INFO - Added contact: Justin Ayala
+2024-09-18 21:02:54,590 - INFO - Added contact: Laura Mccarty
+2024-09-18 21:02:54,590 - INFO - Added contact: Kathryn Campbell
+2024-09-18 21:02:54,590 - INFO - Added contact: Natalie Bennett
+2024-09-18 21:02:54,590 - INFO - Added contact: Paul Payne
+2024-09-18 21:02:54,590 - INFO - Added contact: Rebecca Gonzalez
+2024-09-18 21:02:54,590 - INFO - Added contact: Robert Orr
+2024-09-18 21:02:54,590 - INFO - Added contact: Ethan Hall
+2024-09-18 21:02:54,590 - INFO - Added contact: Patrick Jones
+2024-09-18 21:02:54,590 - INFO - Added contact: Jeremy Calhoun
+2024-09-18 21:02:54,590 - INFO - Added contact: Christopher Gates
+2024-09-18 21:02:54,590 - INFO - Added contact: Deborah Bennett
+2024-09-18 21:14:06,437 - INFO - Contacts loaded from file.
+2024-09-18 21:14:27,508 - INFO - Added contact: hofds ghoda
+2024-09-18 21:15:01,763 - INFO - Added contact: dfsfadsa jogohs
+2024-09-18 21:15:44,854 - INFO - Updated contact Anthw Howard: first_name changed from Anthony to Anthw
+2024-09-18 21:15:44,856 - INFO - Updated contact Anthw WarHo: last_name changed from Howard to WarHo
+2024-09-18 21:15:44,856 - INFO - Updated contact Anthw WarHo: email_address changed from teresaharris@gibson.org to dsa2132@gsad.org
+2024-09-18 21:15:44,856 - INFO - Updated contact Anthw WarHo: address changed from 79432 Kyle Parkways Suite 767
+East Jasmine, SD 64496 to hdosahdoiasdhsaodhsioadhasiod
+2024-09-18 21:15:44,856 - INFO - Updated contact: Anthw WarHo
+2024-09-18 21:16:00,592 - INFO - Contacts saved to file.
+2024-09-18 21:16:38,708 - INFO - Contacts loaded from file.
+2024-09-18 21:18:42,735 - INFO - Deleted contact: dfsfadsa jogohs
+2024-09-18 21:18:42,737 - INFO - Deleted contact: hofds ghoda
+2024-09-18 21:18:42,737 - INFO - Deleted contact: Deborah Bennett
+2024-09-18 21:19:09,200 - INFO - Deleted contact: Christopher Gates
+2024-09-18 21:19:09,202 - INFO - Deleted contact: Jeremy Calhoun
+2024-09-18 21:19:18,383 - INFO - Contacts saved to file.
+2024-09-18 21:19:49,638 - INFO - Contacts loaded from file.
+2024-09-18 21:21:31,593 - INFO - Contacts loaded from file.
+2024-09-18 21:31:58,742 - INFO - Contacts loaded from file.
+2024-09-18 21:32:06,799 - ERROR - Error importing contact={'id': '1', 'first_name': 'Kari', 'last_name': 'Ford', 'phone_number': '(661) 338-63', 'email_address': 'peter85@harper-bernard.net', 'address': '96039 Francis Greens\nNicoleview, AZ 11483', 'created_at': '2023-06-13T10:50:27', 'updated_at': '2024-02-24T22:21:27'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,799 - INFO - Added contact: Hannah Wood
+2024-09-18 21:32:06,799 - INFO - Added contact: Kevin Allen
+2024-09-18 21:32:06,799 - ERROR - Error importing contact={'id': '4', 'first_name': 'Tyler', 'last_name': 'Lee', 'phone_number': '(76) 406-2595', 'email_address': 'cardenasbrandon@gmail.com', 'address': '874 Price Pine Apt. 946\nSchmidtmouth, CA 91242', 'created_at': '2021-03-07T15:15:04', 'updated_at': '2021-07-20T17:53:04'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,799 - ERROR - Error importing contact={'id': '5', 'first_name': 'Robert', 'last_name': 'Roberts', 'phone_number': '(24) 532-7645', 'email_address': 'brussell@adkins-maldonado.org', 'address': '0283 Krystal Roads\nAprilhaven, ND 09477', 'created_at': '2021-01-27T00:01:32', 'updated_at': '2021-07-05T21:41:32'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,799 - INFO - Added contact: Edward Quinn
+2024-09-18 21:32:06,799 - INFO - Added contact: Jordan Willis
+2024-09-18 21:32:06,799 - INFO - Added contact: Chelsea Crawford
+2024-09-18 21:32:06,799 - INFO - Added contact: Robert Burnett
+2024-09-18 21:32:06,799 - INFO - Added contact: Stephanie Farmer
+2024-09-18 21:32:06,799 - INFO - Added contact: Stephanie Bennett
+2024-09-18 21:32:06,799 - ERROR - Error importing contact={'id': '12', 'first_name': 'Heather', 'last_name': 'Tucker', 'phone_number': '(164) 91-5725', 'email_address': 'lialan@buckley.com', 'address': '9218 Avila Mountain\nJeffreyberg, IL 66984', 'created_at': '2021-09-22T17:48:12', 'updated_at': '2022-02-19T00:27:12'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,799 - INFO - Added contact: Shannon Rodriguez
+2024-09-18 21:32:06,799 - INFO - Added contact: Laura Lee
+2024-09-18 21:32:06,799 - INFO - Added contact: Robin Strickland
+2024-09-18 21:32:06,800 - ERROR - Error importing contact={'id': '16', 'first_name': 'James', 'last_name': 'Maldonado', 'phone_number': '(208) 6-1584', 'email_address': 'benjaminpacheco@hotmail.com', 'address': '740 Holland Track\nPort Michaelport, ND 69089', 'created_at': '2020-11-17T09:33:36', 'updated_at': '2021-11-08T18:06:36'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,800 - INFO - Added contact: Nicole Hays
+2024-09-18 21:32:06,800 - INFO - Added contact: Jacqueline Richard
+2024-09-18 21:32:06,800 - INFO - Added contact: Maxwell Nichols
+2024-09-18 21:32:06,800 - INFO - Added contact: Kathleen King
+2024-09-18 21:32:06,800 - ERROR - Error importing contact={'id': '21', 'first_name': 'Dawn', 'last_name': 'Armstrong', 'phone_number': '(709) 873-468', 'email_address': 'igonzalez@cole-mccullough.net', 'address': '66007 Norma Land\nWilliamtown, WY 68448', 'created_at': '2024-06-25T14:22:55', 'updated_at': '2025-05-19T14:17:55'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,800 - ERROR - Error importing contact={'id': '22', 'first_name': 'Timothy', 'last_name': 'Rodriguez', 'phone_number': '(0) 416-820', 'email_address': 'rossjessica@hotmail.com', 'address': 'Unit 2176 Box 6691\nDPO AA 44426', 'created_at': '2022-07-05T13:34:59', 'updated_at': '2022-09-20T17:17:59'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,800 - INFO - Added contact: Christine Washington
+2024-09-18 21:32:06,800 - INFO - Added contact: Tammy Joseph
+2024-09-18 21:32:06,800 - ERROR - Error importing contact={'id': '25', 'first_name': 'Gary', 'last_name': 'Perez', 'phone_number': '(349) 84-967', 'email_address': 'kayla01@stone.org', 'address': '90373 Blair Ridges\nCarolton, MD 51382', 'created_at': '2023-02-18T03:03:10', 'updated_at': '2024-02-10T03:34:10'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,800 - ERROR - Error importing contact={'id': '26', 'first_name': 'Gary', 'last_name': 'Miller', 'phone_number': '(37) 397-3411', 'email_address': 'harrisalicia@prince-benson.org', 'address': '522 Lyons Branch\nHansonport, LA 29403', 'created_at': '2024-02-04T00:52:53', 'updated_at': '2024-09-12T07:36:53'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,800 - ERROR - Error importing contact={'id': '27', 'first_name': 'Caroline', 'last_name': 'Spencer', 'phone_number': '(25) 537-8385', 'email_address': 'gabriellajohnson@hotmail.com', 'address': '962 Drake Junction Apt. 471\nLake Marissafurt, DC 01270', 'created_at': '2024-04-06T09:43:47', 'updated_at': '2025-02-26T01:47:47'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,800 - INFO - Added contact: Thomas Gonzalez
+2024-09-18 21:32:06,800 - INFO - Added contact: Elizabeth Rodgers
+2024-09-18 21:32:06,800 - INFO - Added contact: Andrew Benton
+2024-09-18 21:32:06,800 - INFO - Added contact: Anthony Hess
+2024-09-18 21:32:06,800 - INFO - Added contact: Gail Jenkins
+2024-09-18 21:32:06,800 - ERROR - Error importing contact={'id': '33', 'first_name': 'Michelle', 'last_name': 'Stevens', 'phone_number': '(950) 653-263', 'email_address': 'feliciadavis@yahoo.com', 'address': '48217 Nichols Parks Apt. 296\nHunterton, MN 06871', 'created_at': '2020-02-26T01:09:34', 'updated_at': '2020-04-21T23:21:34'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,800 - ERROR - Error importing contact={'id': '34', 'first_name': 'Mary', 'last_name': 'Velazquez', 'phone_number': '(148) 23-7763', 'email_address': 'tbarnett@ibarra.com', 'address': '083 Martin Isle\nNorth David, NV 73077', 'created_at': '2022-06-09T17:36:29', 'updated_at': '2023-02-07T18:52:29'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,800 - INFO - Added contact: William George
+2024-09-18 21:32:06,800 - INFO - Added contact: Thomas Cruz
+2024-09-18 21:32:06,800 - INFO - Added contact: Charles Stone
+2024-09-18 21:32:06,800 - INFO - Added contact: Elizabeth Farmer
+2024-09-18 21:32:06,800 - INFO - Added contact: Denise Miles
+2024-09-18 21:32:06,800 - ERROR - Error importing contact={'id': '40', 'first_name': 'Dennis', 'last_name': 'Rivera', 'phone_number': '(410) 20-6990', 'email_address': 'mgood@yahoo.com', 'address': '2273 Amber Prairie\nChristineland, MI 69438', 'created_at': '2022-05-21T17:32:21', 'updated_at': '2023-02-23T10:32:21'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,800 - INFO - Added contact: Joseph Fisher
+2024-09-18 21:32:06,800 - INFO - Added contact: Paul Vargas
+2024-09-18 21:32:06,800 - INFO - Added contact: Jacob Smith
+2024-09-18 21:32:06,800 - INFO - Added contact: Katrina Cook
+2024-09-18 21:32:06,800 - INFO - Added contact: Anna Williams
+2024-09-18 21:32:06,800 - INFO - Added contact: Anna Todd
+2024-09-18 21:32:06,800 - INFO - Added contact: Nicolas Davis
+2024-09-18 21:32:06,800 - INFO - Added contact: Debra Walsh
+2024-09-18 21:32:06,800 - INFO - Added contact: Deborah Silva
+2024-09-18 21:32:06,800 - INFO - Added contact: Lisa Elliott
+2024-09-18 21:32:06,800 - INFO - Added contact: Frank Elliott
+2024-09-18 21:32:06,800 - INFO - Added contact: Mark Gardner
+2024-09-18 21:32:06,800 - INFO - Added contact: Devon Watts
+2024-09-18 21:32:06,800 - INFO - Added contact: Joseph Fox
+2024-09-18 21:32:06,800 - INFO - Added contact: Bradley Quinn
+2024-09-18 21:32:06,800 - INFO - Added contact: Michael Huerta
+2024-09-18 21:32:06,800 - INFO - Added contact: William Stokes
+2024-09-18 21:32:06,800 - INFO - Added contact: Ryan Berger
+2024-09-18 21:32:06,800 - ERROR - Error importing contact={'id': '59', 'first_name': 'Lauren', 'last_name': 'Maxwell', 'phone_number': '(872) 951-710', 'email_address': 'nguyenmichelle@levy.org', 'address': '863 David Road Apt. 369\nBrownbury, DE 53301', 'created_at': '2024-06-30T04:55:11', 'updated_at': '2025-06-03T18:53:11'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,800 - INFO - Added contact: Jessica Harris
+2024-09-18 21:32:06,800 - INFO - Added contact: Gregory Fernandez
+2024-09-18 21:32:06,800 - ERROR - Error importing contact={'id': '62', 'first_name': 'Tracy', 'last_name': 'Cooper', 'phone_number': '(724) 911-627', 'email_address': 'joshua12@yahoo.com', 'address': '48190 Williams Mountains Apt. 486\nLoritown, TN 41694', 'created_at': '2022-10-30T02:57:06', 'updated_at': '2023-07-05T20:28:06'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,800 - INFO - Added contact: Diane Thomas
+2024-09-18 21:32:06,800 - INFO - Added contact: Christine Becker
+2024-09-18 21:32:06,801 - INFO - Added contact: Victor Gutierrez
+2024-09-18 21:32:06,801 - INFO - Added contact: Sierra Arroyo
+2024-09-18 21:32:06,801 - INFO - Added contact: Sarah Reyes
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '68', 'first_name': 'Nathan', 'last_name': 'James', 'phone_number': '(523) 522-472', 'email_address': 'kbrown@carroll.com', 'address': '71091 Mary Ports\nSouth Lisaland, CO 17459', 'created_at': '2020-01-08T14:00:18', 'updated_at': '2020-03-29T07:40:18'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,801 - INFO - Added contact: Christopher Gill
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '70', 'first_name': 'Amanda', 'last_name': 'Sanders', 'phone_number': '(568) 34-4025', 'email_address': 'jasonpatton@yahoo.com', 'address': 'Unit 3702 Box 4882\nDPO AE 60401', 'created_at': '2022-11-28T21:16:37', 'updated_at': '2023-02-09T16:50:37'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,801 - INFO - Added contact: David Kennedy
+2024-09-18 21:32:06,801 - INFO - Added contact: Phillip Sullivan
+2024-09-18 21:32:06,801 - INFO - Added contact: Katherine Howard
+2024-09-18 21:32:06,801 - INFO - Added contact: Rebecca Sanchez
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '75', 'first_name': 'Clayton', 'last_name': 'Castaneda', 'phone_number': '(940) 41-7340', 'email_address': 'lisaknight@gmail.com', 'address': 'PSC 2465, Box 8017\nAPO AP 46277', 'created_at': '2024-08-17T15:15:52', 'updated_at': '2025-03-13T11:39:52'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,801 - INFO - Added contact: Holly Thomas
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '77', 'first_name': 'Sophia', 'last_name': 'Wyatt', 'phone_number': '(258) 75-6207', 'email_address': 'robertnguyen@gmail.com', 'address': '02188 Christopher Fields\nStoneland, IA 04958', 'created_at': '2023-11-19T13:32:58', 'updated_at': '2024-07-25T21:52:58'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,801 - INFO - Added contact: Brenda Nicholson
+2024-09-18 21:32:06,801 - INFO - Added contact: Jorge Brandt
+2024-09-18 21:32:06,801 - INFO - Added contact: Jerome Reyes
+2024-09-18 21:32:06,801 - INFO - Added contact: Sheila Peck
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '82', 'first_name': 'Sherry', 'last_name': 'Kelley', 'phone_number': '(5) 199-1672', 'email_address': 'harrisrandy@jones.com', 'address': 'PSC 3290, Box 9790\nAPO AA 46344', 'created_at': '2023-02-17T11:21:41', 'updated_at': '2023-12-21T12:19:41'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '83', 'first_name': 'Justin', 'last_name': 'Williams', 'phone_number': '(299) 57-2902', 'email_address': 'duncanangela@schmitt-johnson.com', 'address': '2955 Flores Valleys Suite 932\nPort Brendaburgh, AK 32781', 'created_at': '2020-10-25T16:23:14', 'updated_at': '2021-07-20T11:17:14'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '84', 'first_name': 'Jason', 'last_name': 'Miller', 'phone_number': '(64) 351-8087', 'email_address': 'aaron76@yahoo.com', 'address': '261 Chan Roads Suite 266\nEast Brandon, ME 31291', 'created_at': '2020-03-22T03:21:17', 'updated_at': '2020-08-20T11:41:17'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,801 - INFO - Added contact: Heather Thomas
+2024-09-18 21:32:06,801 - INFO - Added contact: Daniel Morris
+2024-09-18 21:32:06,801 - INFO - Added contact: Meghan Rogers
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '88', 'first_name': 'Sarah', 'last_name': 'Silva', 'phone_number': '(68) 968-3939', 'email_address': 'nmatthews@stewart.info', 'address': '160 Dominic Common Suite 842\nLiland, IA 12656', 'created_at': '2020-02-23T18:21:53', 'updated_at': '2020-12-05T06:36:53'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '', 'first_name': '', 'last_name': '', 'phone_number': '', 'email_address': '', 'address': '', 'created_at': '', 'updated_at': ''}, error=invalid literal for int() with base 10: ''
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '', 'first_name': '', 'last_name': '', 'phone_number': '', 'email_address': '', 'address': '', 'created_at': '', 'updated_at': ''}, error=invalid literal for int() with base 10: ''
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '', 'first_name': '', 'last_name': '', 'phone_number': '', 'email_address': '', 'address': '', 'created_at': '', 'updated_at': ''}, error=invalid literal for int() with base 10: ''
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '', 'first_name': '', 'last_name': '', 'phone_number': '', 'email_address': '', 'address': '', 'created_at': '', 'updated_at': ''}, error=invalid literal for int() with base 10: ''
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '', 'first_name': '', 'last_name': '', 'phone_number': '', 'email_address': '', 'address': '', 'created_at': '', 'updated_at': ''}, error=invalid literal for int() with base 10: ''
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '', 'first_name': '', 'last_name': '', 'phone_number': '', 'email_address': '', 'address': '', 'created_at': '', 'updated_at': ''}, error=invalid literal for int() with base 10: ''
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '', 'first_name': '', 'last_name': '', 'phone_number': '', 'email_address': '', 'address': '', 'created_at': '', 'updated_at': ''}, error=invalid literal for int() with base 10: ''
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '', 'first_name': '', 'last_name': '', 'phone_number': '', 'email_address': '', 'address': '', 'created_at': '', 'updated_at': ''}, error=invalid literal for int() with base 10: ''
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '', 'first_name': '', 'last_name': '', 'phone_number': '', 'email_address': '', 'address': '', 'created_at': '', 'updated_at': ''}, error=invalid literal for int() with base 10: ''
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '', 'first_name': '', 'last_name': '', 'phone_number': '', 'email_address': '', 'address': '', 'created_at': '', 'updated_at': ''}, error=invalid literal for int() with base 10: ''
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '', 'first_name': '', 'last_name': '', 'phone_number': '', 'email_address': '', 'address': '', 'created_at': '', 'updated_at': ''}, error=invalid literal for int() with base 10: ''
+2024-09-18 21:32:06,801 - ERROR - Error importing contact={'id': '', 'first_name': '', 'last_name': '', 'phone_number': '', 'email_address': '', 'address': '', 'created_at': '', 'updated_at': ''}, error=invalid literal for int() with base 10: ''
+2024-09-18 21:33:52,870 - INFO - Contacts loaded from file.
+2024-09-18 21:34:00,092 - ERROR - Error importing contact={'id': '1', 'first_name': 'Kari', 'last_name': 'Ford', 'phone_number': '(661) 338-63', 'email_address': 'peter85@harper-bernard.net', 'address': '96039 Francis Greens\nNicoleview, AZ 11483', 'created_at': '2023-06-13T10:50:27', 'updated_at': '2024-02-24T22:21:27'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,092 - INFO - Added contact: Hannah Wood
+2024-09-18 21:34:00,093 - INFO - Added contact: Kevin Allen
+2024-09-18 21:34:00,093 - ERROR - Error importing contact={'id': '4', 'first_name': 'Tyler', 'last_name': 'Lee', 'phone_number': '(76) 406-2595', 'email_address': 'cardenasbrandon@gmail.com', 'address': '874 Price Pine Apt. 946\nSchmidtmouth, CA 91242', 'created_at': '2021-03-07T15:15:04', 'updated_at': '2021-07-20T17:53:04'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,093 - ERROR - Error importing contact={'id': '5', 'first_name': 'Robert', 'last_name': 'Roberts', 'phone_number': '(24) 532-7645', 'email_address': 'brussell@adkins-maldonado.org', 'address': '0283 Krystal Roads\nAprilhaven, ND 09477', 'created_at': '2021-01-27T00:01:32', 'updated_at': '2021-07-05T21:41:32'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,093 - INFO - Added contact: Edward Quinn
+2024-09-18 21:34:00,093 - INFO - Added contact: Jordan Willis
+2024-09-18 21:34:00,093 - INFO - Added contact: Chelsea Crawford
+2024-09-18 21:34:00,093 - INFO - Added contact: Robert Burnett
+2024-09-18 21:34:00,093 - INFO - Added contact: Stephanie Farmer
+2024-09-18 21:34:00,093 - INFO - Added contact: Stephanie Bennett
+2024-09-18 21:34:00,093 - ERROR - Error importing contact={'id': '12', 'first_name': 'Heather', 'last_name': 'Tucker', 'phone_number': '(164) 91-5725', 'email_address': 'lialan@buckley.com', 'address': '9218 Avila Mountain\nJeffreyberg, IL 66984', 'created_at': '2021-09-22T17:48:12', 'updated_at': '2022-02-19T00:27:12'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,093 - INFO - Added contact: Shannon Rodriguez
+2024-09-18 21:34:00,093 - INFO - Added contact: Laura Lee
+2024-09-18 21:34:00,093 - INFO - Added contact: Robin Strickland
+2024-09-18 21:34:00,093 - ERROR - Error importing contact={'id': '16', 'first_name': 'James', 'last_name': 'Maldonado', 'phone_number': '(208) 6-1584', 'email_address': 'benjaminpacheco@hotmail.com', 'address': '740 Holland Track\nPort Michaelport, ND 69089', 'created_at': '2020-11-17T09:33:36', 'updated_at': '2021-11-08T18:06:36'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,093 - INFO - Added contact: Nicole Hays
+2024-09-18 21:34:00,093 - INFO - Added contact: Jacqueline Richard
+2024-09-18 21:34:00,093 - INFO - Added contact: Maxwell Nichols
+2024-09-18 21:34:00,093 - INFO - Added contact: Kathleen King
+2024-09-18 21:34:00,093 - ERROR - Error importing contact={'id': '21', 'first_name': 'Dawn', 'last_name': 'Armstrong', 'phone_number': '(709) 873-468', 'email_address': 'igonzalez@cole-mccullough.net', 'address': '66007 Norma Land\nWilliamtown, WY 68448', 'created_at': '2024-06-25T14:22:55', 'updated_at': '2025-05-19T14:17:55'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,093 - ERROR - Error importing contact={'id': '22', 'first_name': 'Timothy', 'last_name': 'Rodriguez', 'phone_number': '(0) 416-820', 'email_address': 'rossjessica@hotmail.com', 'address': 'Unit 2176 Box 6691\nDPO AA 44426', 'created_at': '2022-07-05T13:34:59', 'updated_at': '2022-09-20T17:17:59'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,093 - INFO - Added contact: Christine Washington
+2024-09-18 21:34:00,093 - INFO - Added contact: Tammy Joseph
+2024-09-18 21:34:00,093 - ERROR - Error importing contact={'id': '25', 'first_name': 'Gary', 'last_name': 'Perez', 'phone_number': '(349) 84-967', 'email_address': 'kayla01@stone.org', 'address': '90373 Blair Ridges\nCarolton, MD 51382', 'created_at': '2023-02-18T03:03:10', 'updated_at': '2024-02-10T03:34:10'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,093 - ERROR - Error importing contact={'id': '26', 'first_name': 'Gary', 'last_name': 'Miller', 'phone_number': '(37) 397-3411', 'email_address': 'harrisalicia@prince-benson.org', 'address': '522 Lyons Branch\nHansonport, LA 29403', 'created_at': '2024-02-04T00:52:53', 'updated_at': '2024-09-12T07:36:53'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,093 - ERROR - Error importing contact={'id': '27', 'first_name': 'Caroline', 'last_name': 'Spencer', 'phone_number': '(25) 537-8385', 'email_address': 'gabriellajohnson@hotmail.com', 'address': '962 Drake Junction Apt. 471\nLake Marissafurt, DC 01270', 'created_at': '2024-04-06T09:43:47', 'updated_at': '2025-02-26T01:47:47'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,093 - INFO - Added contact: Thomas Gonzalez
+2024-09-18 21:34:00,093 - INFO - Added contact: Elizabeth Rodgers
+2024-09-18 21:34:00,093 - INFO - Added contact: Andrew Benton
+2024-09-18 21:34:00,093 - INFO - Added contact: Anthony Hess
+2024-09-18 21:34:00,093 - INFO - Added contact: Gail Jenkins
+2024-09-18 21:34:00,093 - ERROR - Error importing contact={'id': '33', 'first_name': 'Michelle', 'last_name': 'Stevens', 'phone_number': '(950) 653-263', 'email_address': 'feliciadavis@yahoo.com', 'address': '48217 Nichols Parks Apt. 296\nHunterton, MN 06871', 'created_at': '2020-02-26T01:09:34', 'updated_at': '2020-04-21T23:21:34'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,093 - ERROR - Error importing contact={'id': '34', 'first_name': 'Mary', 'last_name': 'Velazquez', 'phone_number': '(148) 23-7763', 'email_address': 'tbarnett@ibarra.com', 'address': '083 Martin Isle\nNorth David, NV 73077', 'created_at': '2022-06-09T17:36:29', 'updated_at': '2023-02-07T18:52:29'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,093 - INFO - Added contact: William George
+2024-09-18 21:34:00,093 - INFO - Added contact: Thomas Cruz
+2024-09-18 21:34:00,093 - INFO - Added contact: Charles Stone
+2024-09-18 21:34:00,093 - INFO - Added contact: Elizabeth Farmer
+2024-09-18 21:34:00,093 - INFO - Added contact: Denise Miles
+2024-09-18 21:34:00,093 - ERROR - Error importing contact={'id': '40', 'first_name': 'Dennis', 'last_name': 'Rivera', 'phone_number': '(410) 20-6990', 'email_address': 'mgood@yahoo.com', 'address': '2273 Amber Prairie\nChristineland, MI 69438', 'created_at': '2022-05-21T17:32:21', 'updated_at': '2023-02-23T10:32:21'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,093 - INFO - Added contact: Joseph Fisher
+2024-09-18 21:34:00,093 - INFO - Added contact: Paul Vargas
+2024-09-18 21:34:00,093 - INFO - Added contact: Jacob Smith
+2024-09-18 21:34:00,094 - INFO - Added contact: Katrina Cook
+2024-09-18 21:34:00,094 - INFO - Added contact: Anna Williams
+2024-09-18 21:34:00,094 - INFO - Added contact: Anna Todd
+2024-09-18 21:34:00,094 - INFO - Added contact: Nicolas Davis
+2024-09-18 21:34:00,094 - INFO - Added contact: Debra Walsh
+2024-09-18 21:34:00,094 - INFO - Added contact: Deborah Silva
+2024-09-18 21:34:00,094 - INFO - Added contact: Lisa Elliott
+2024-09-18 21:34:00,094 - INFO - Added contact: Frank Elliott
+2024-09-18 21:34:00,094 - INFO - Added contact: Mark Gardner
+2024-09-18 21:34:00,094 - INFO - Added contact: Devon Watts
+2024-09-18 21:34:00,094 - INFO - Added contact: Joseph Fox
+2024-09-18 21:34:00,094 - INFO - Added contact: Bradley Quinn
+2024-09-18 21:34:00,094 - INFO - Added contact: Michael Huerta
+2024-09-18 21:34:00,094 - INFO - Added contact: William Stokes
+2024-09-18 21:34:00,094 - INFO - Added contact: Ryan Berger
+2024-09-18 21:34:00,094 - ERROR - Error importing contact={'id': '59', 'first_name': 'Lauren', 'last_name': 'Maxwell', 'phone_number': '(872) 951-710', 'email_address': 'nguyenmichelle@levy.org', 'address': '863 David Road Apt. 369\nBrownbury, DE 53301', 'created_at': '2024-06-30T04:55:11', 'updated_at': '2025-06-03T18:53:11'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,094 - INFO - Added contact: Jessica Harris
+2024-09-18 21:34:00,094 - INFO - Added contact: Gregory Fernandez
+2024-09-18 21:34:00,094 - ERROR - Error importing contact={'id': '62', 'first_name': 'Tracy', 'last_name': 'Cooper', 'phone_number': '(724) 911-627', 'email_address': 'joshua12@yahoo.com', 'address': '48190 Williams Mountains Apt. 486\nLoritown, TN 41694', 'created_at': '2022-10-30T02:57:06', 'updated_at': '2023-07-05T20:28:06'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,094 - INFO - Added contact: Diane Thomas
+2024-09-18 21:34:00,094 - INFO - Added contact: Christine Becker
+2024-09-18 21:34:00,094 - INFO - Added contact: Victor Gutierrez
+2024-09-18 21:34:00,094 - INFO - Added contact: Sierra Arroyo
+2024-09-18 21:34:00,094 - INFO - Added contact: Sarah Reyes
+2024-09-18 21:34:00,094 - ERROR - Error importing contact={'id': '68', 'first_name': 'Nathan', 'last_name': 'James', 'phone_number': '(523) 522-472', 'email_address': 'kbrown@carroll.com', 'address': '71091 Mary Ports\nSouth Lisaland, CO 17459', 'created_at': '2020-01-08T14:00:18', 'updated_at': '2020-03-29T07:40:18'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,094 - INFO - Added contact: Christopher Gill
+2024-09-18 21:34:00,095 - ERROR - Error importing contact={'id': '70', 'first_name': 'Amanda', 'last_name': 'Sanders', 'phone_number': '(568) 34-4025', 'email_address': 'jasonpatton@yahoo.com', 'address': 'Unit 3702 Box 4882\nDPO AE 60401', 'created_at': '2022-11-28T21:16:37', 'updated_at': '2023-02-09T16:50:37'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,095 - INFO - Added contact: David Kennedy
+2024-09-18 21:34:00,095 - INFO - Added contact: Phillip Sullivan
+2024-09-18 21:34:00,095 - INFO - Added contact: Katherine Howard
+2024-09-18 21:34:00,095 - INFO - Added contact: Rebecca Sanchez
+2024-09-18 21:34:00,095 - ERROR - Error importing contact={'id': '75', 'first_name': 'Clayton', 'last_name': 'Castaneda', 'phone_number': '(940) 41-7340', 'email_address': 'lisaknight@gmail.com', 'address': 'PSC 2465, Box 8017\nAPO AP 46277', 'created_at': '2024-08-17T15:15:52', 'updated_at': '2025-03-13T11:39:52'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,095 - INFO - Added contact: Holly Thomas
+2024-09-18 21:34:00,095 - ERROR - Error importing contact={'id': '77', 'first_name': 'Sophia', 'last_name': 'Wyatt', 'phone_number': '(258) 75-6207', 'email_address': 'robertnguyen@gmail.com', 'address': '02188 Christopher Fields\nStoneland, IA 04958', 'created_at': '2023-11-19T13:32:58', 'updated_at': '2024-07-25T21:52:58'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,095 - INFO - Added contact: Brenda Nicholson
+2024-09-18 21:34:00,095 - INFO - Added contact: Jorge Brandt
+2024-09-18 21:34:00,095 - INFO - Added contact: Jerome Reyes
+2024-09-18 21:34:00,095 - INFO - Added contact: Sheila Peck
+2024-09-18 21:34:00,095 - ERROR - Error importing contact={'id': '82', 'first_name': 'Sherry', 'last_name': 'Kelley', 'phone_number': '(5) 199-1672', 'email_address': 'harrisrandy@jones.com', 'address': 'PSC 3290, Box 9790\nAPO AA 46344', 'created_at': '2023-02-17T11:21:41', 'updated_at': '2023-12-21T12:19:41'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,095 - ERROR - Error importing contact={'id': '83', 'first_name': 'Justin', 'last_name': 'Williams', 'phone_number': '(299) 57-2902', 'email_address': 'duncanangela@schmitt-johnson.com', 'address': '2955 Flores Valleys Suite 932\nPort Brendaburgh, AK 32781', 'created_at': '2020-10-25T16:23:14', 'updated_at': '2021-07-20T11:17:14'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,095 - ERROR - Error importing contact={'id': '84', 'first_name': 'Jason', 'last_name': 'Miller', 'phone_number': '(64) 351-8087', 'email_address': 'aaron76@yahoo.com', 'address': '261 Chan Roads Suite 266\nEast Brandon, ME 31291', 'created_at': '2020-03-22T03:21:17', 'updated_at': '2020-08-20T11:41:17'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:00,095 - INFO - Added contact: Heather Thomas
+2024-09-18 21:34:00,095 - INFO - Added contact: Daniel Morris
+2024-09-18 21:34:00,095 - INFO - Added contact: Meghan Rogers
+2024-09-18 21:34:00,095 - ERROR - Error importing contact={'id': '88', 'first_name': 'Sarah', 'last_name': 'Silva', 'phone_number': '(68) 968-3939', 'email_address': 'nmatthews@stewart.info', 'address': '160 Dominic Common Suite 842\nLiland, IA 12656', 'created_at': '2020-02-23T18:21:53', 'updated_at': '2020-12-05T06:36:53'}, error=Phone number must be in the format (###) ###-####
+2024-09-18 21:34:49,636 - INFO - Contacts saved to file.

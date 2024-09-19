@@ -23,6 +23,7 @@ def validate_email(email):
 
 
 def get_non_empty_input(prompt: str):
+    """some fields require non-empty input, we use this function for generic usage"""
     while True:
         user_input = input(prompt + ": ").strip()
         if user_input:
@@ -32,6 +33,7 @@ def get_non_empty_input(prompt: str):
 
 
 def get_valid_phone_number():
+    """wrapper: tell the user, we need a valid phone number."""
     while True:
         phone_number = input("Phone Number (###) ###-####: ").strip()
         try:
@@ -41,6 +43,7 @@ def get_valid_phone_number():
 
 
 def get_valid_email():
+    """wrapper: tell the user, we need a valid email address."""
     while True:
         email_address = input("Email Address (Optional): ").strip()
         if not email_address:

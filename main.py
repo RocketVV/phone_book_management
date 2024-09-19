@@ -24,8 +24,12 @@ def welcome():
 
 
 def main():
-    # Ensure necessary directories exist
+    """Entrance function to run the phone book application with Command-Line Interface (CLI)."""
+
+    # Ensure logs/data directories exist
+    # logging file directory
     os.makedirs('logs', exist_ok=True)
+    # contacts json file directory
     os.makedirs('data', exist_ok=True)
 
     # Instantiate the Phone Book with persistence
@@ -57,6 +61,12 @@ def main():
 
 
 def create_contacts_cli(phone_book):
+    """
+    CLI function to create new contacts.
+
+    1. create single contact by the attributes
+    2. import a CSV file for batch creating contacts
+    """
     while True:
         choice = input(
             "\n--- Create Contacts ---" +
@@ -95,6 +105,13 @@ def create_contacts_cli(phone_book):
 
 
 def batch_import_contacts_cli(phone_book):
+    """
+    CLI function to import contacts from a CSV file.
+
+    If the CSV file contains any invalid row records,
+    logging system will automatically write it down (importing record errors),
+    and you can check it in the log file
+    """
     csv_file_path = input("Enter the path to the CSV file: ").strip()
     try:
         phone_book.batch_import(csv_file_path)
@@ -106,6 +123,12 @@ def batch_import_contacts_cli(phone_book):
 
 
 def search_contacts_cli(phone_book):
+    """
+    CLI function to search for contacts.
+
+    1. Wildcard searches, allowing partial matches in names and phone numbers
+    2. Search by date within a specific time frame
+    """
     while True:
         choice = input(
             "\n--- Search Contacts ---" +
@@ -211,6 +234,11 @@ def update_contact_cli(phone_book):
 
 
 def delete_contacts_cli(phone_book):
+    """
+    CLI function to delete contacts.
+
+    delete single contact or batch delete contacts.
+    """
     ids = input(
         "\n--- Delete Contacts ---" +
         "\nEnter the Contact ID(s) for deletion, split by ','." +
@@ -249,7 +277,13 @@ def delete_contacts_cli(phone_book):
 
 
 def view_contacts_cli(phone_book):
-    """CLI function to view contacts."""
+    """
+    CLI function to view contacts.
+
+    1. view sorted contacts based on alphabetical order
+    2. view contacts based on grouping by the initial letter of the last name
+    3. view the history changes of single contact
+    """
     while True:
         choice = input(
             "\n--- View Contacts ---" +

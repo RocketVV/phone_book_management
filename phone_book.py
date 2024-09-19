@@ -11,9 +11,11 @@ class PhoneBook:
 
     def __init__(self, contacts_file='data/contacts.json'):
         self.contacts = []
+        # json serialization file path
         self.contacts_file = contacts_file
         # Contact ID starts from 1
         self.next_id = 1
+        # log config: 1. log file path 2. default log level 3. log print format
         logging.basicConfig(filename='logs/phone_book.log', level=logging.INFO,
                             format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -52,7 +54,7 @@ class PhoneBook:
         Import contacts from a CSV file.
 
         1. check whether there are duplicate contact ids (Primary Key)
-        2. implement duplicate contacts for user experience (Based on phone number, email or name)
+        2. future feature: implement duplicate contacts removing for user experience (Based on phone number, email or name)
         """
         with open(csv_file_path, 'r') as file:
             reader = csv.DictReader(file)
@@ -76,12 +78,6 @@ class PhoneBook:
             if contact.contact_id == contact_id:
                 return contact
 
-    def get_contact(self, **kwargs):
-        results = self.contacts
-        for key, value in kwargs.items():
-            results = [c for c in results if getattr(c, key) == value]
-        return results
-
     def get_next_contact_id(self):
         """self increment contact ids"""
         contact_id = self.next_id
@@ -97,14 +93,17 @@ class PhoneBook:
         logging.info(f"Deleted contact: {contact.first_name} {contact.last_name}")
 
     def search_contacts(self, query):
+        """Search contacts with regex matching."""
         pattern = re.compile(query, re.IGNORECASE)
         return [c for c in self.contacts if
                 pattern.search(c.first_name) or pattern.search(c.last_name) or pattern.search(c.phone_number)]
 
     def filter_contacts_by_date(self, start_date, end_date):
+        """Search by date from start date to end date."""
         return [c for c in self.contacts if start_date <= c.created_at <= end_date]
 
     def sort_contacts(self):
+        """sorted contacts based on alphabetical order"""
         return sorted(self.contacts, key=lambda x: x.last_name)
 
     def group_contacts(self):

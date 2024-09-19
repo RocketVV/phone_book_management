@@ -4,6 +4,7 @@ import logging
 
 
 class Contact:
+    """A class to represent a contact object in the phone book."""
 
     def __init__(self, contact_id: int, first_name, last_name, phone_number, email_address=None, address=None,
                  created_at=None, updated_at=None, history=None):
@@ -18,6 +19,7 @@ class Contact:
         self.history = history if history else []
 
     def update(self, **kwargs):
+        """Update contact details and history changes."""
         for key, value in kwargs.items():
             if hasattr(self, key):
                 old_value = getattr(self, key)
@@ -46,6 +48,9 @@ class Contact:
             'updated_at': self.updated_at,
             'history': self.history
         }
+
+    def __str__(self):
+        return f"Contact {self.first_name} {self.last_name} {self.phone_number} {self.email_address} {self.address}"
 
     @classmethod
     def from_dict(cls, data):
