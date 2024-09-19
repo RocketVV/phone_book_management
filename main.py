@@ -144,8 +144,8 @@ def search_contacts_cli(phone_book):
             utils.print_contacts(results)
         elif choice == '2':
             print('please use the ios time format (yyyy-mm-dd hh:mm:ss) for input')
-            start_time = datetime.datetime.fromisoformat(input(f"Start Time:"))
-            end_time = datetime.datetime.fromisoformat(input(f"End Time:"))
+            start_time = utils.get_valid_time(f"Start Time:")
+            end_time = utils.get_valid_time(f"End Time:")
             results = phone_book.filter_contacts_by_date(start_time, end_time)
             utils.print_contacts(results)
         elif choice == '3':

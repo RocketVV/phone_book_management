@@ -55,6 +55,13 @@ def get_valid_email():
             print(f"Error: {ve}")
 
 
+def get_valid_time(prompt: str):
+    while True:
+        try:
+            return datetime.datetime.fromisoformat(input(prompt))
+        except ValueError:
+            print("Invalid time format, please try again.")
+
 def print_contacts(contacts):
     """Helper function to print a list of contacts."""
     if not contacts:
