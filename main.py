@@ -1,11 +1,12 @@
+import datetime
 import sys
 import os
-
-from future.backports.datetime import datetime
 
 from phone_book import PhoneBook
 from contact import Contact
 import utils
+
+KEYWORD_CLEAN_UP = 'CLEAN UP'
 
 
 def welcome():
@@ -66,6 +67,9 @@ def create_contacts_cli(phone_book):
         ).strip()
 
         if choice == '1':
+            # first_name, last_name, phone_number aren't null
+            # email_address and address can be optional
+            # so we assign any legitimate value to them
             first_name = utils.get_non_empty_input("First Name")
             last_name = utils.get_non_empty_input("Last Name")
             phone_number = utils.get_valid_phone_number()
@@ -117,8 +121,8 @@ def search_contacts_cli(phone_book):
             utils.print_contacts(results)
         elif choice == '2':
             print('please use the ios time format (yyyy-mm-dd hh:mm:ss) for input')
-            start_time = datetime.fromisoformat(input(f"Start Time:"))
-            end_time = datetime.fromisoformat(input(f"End Time:"))
+            start_time = datetime.datetime.fromisoformat(input(f"Start Time:"))
+            end_time = datetime.datetime.fromisoformat(input(f"End Time:"))
             results = phone_book.filter_contacts_by_date(start_time, end_time)
             utils.print_contacts(results)
         elif choice == '3':
@@ -143,22 +147,59 @@ def update_contact_cli(phone_book):
 
         updates = {}
 
-        # first_name, last_name, phone_number aren't null
-        # email_address and address can be optional, so we assign any legitimate value to them
-        first_name = utils.get_non_empty_input("First Name")
-        updates['first_name'] = first_name
+        # Update operation is different from Create:
+        # under updating situation, we can choose which attributes (first name/last name/phone number, etc.) to update,
+        # and if an attribute we don't want to change, we can simply assign '' to it (press the enter key in human-computer interation),
+        # so that we have to write the specific judgment logic, in other words, some untidy code lines (looks like)
+        first_name = input(f"First Name [{contact.first_name}]: ").strip()
+        if first_name:
+            updates['first_name'] = first_name
+        elif first_name == '':
+            print("Nothing changed. Keeping the current value.")
 
-        last_name = utils.get_non_empty_input("Last Name")
-        updates['last_name'] = last_name
+        last_name = input(f"Last Name [{contact.last_name}]: ").strip()
+        if last_name:
+            updates['last_name'] = last_name
+        elif last_name == '':
+            print("Nothing changed. Keeping the current value.")
 
-        phone_number = utils.get_valid_phone_number()
-        updates['phone_number'] = phone_number
+        while True:
+            phone_number = input(f"Phone Number [{contact.phone_number}]: ").strip()
+            if not phone_number:
+                print("Nothing changed. Keeping the current value.")
+                break
+            else:
+                try:
+                    updates['phone_number'] = utils.validate_phone_number(phone_number)
+                    break
+                except ValueError as ve:
+                    print(f"Error: {ve}")
 
-        email_address = utils.get_valid_email()
-        updates['email_address'] = email_address
+        # optional attributes need to add one more logic:
+        # we offer an option to let user clean their contacts' emails & addresses
+        # when user input the specific keyword: 'CLEAN UP', we assign None to the attribute
+        while True:
+            email_address = input(f"Email Address [{contact.email_address or KEYWORD_CLEAN_UP}]: ").strip()
+            if not email_address:
+                print("Nothing changed. Keeping the current value.")
+                break
+            elif email_address == KEYWORD_CLEAN_UP:
+                updates['email_address'] = None
+                break
+            else:
+                try:
+                    updates['email_address'] = utils.validate_email(email_address)
+                    break
+                except ValueError as ve:
+                    print(f"Error: {ve}")
 
-        address = input(f"Address [{contact.address or 'None'}]: ").strip()
-        updates['address'] = address if address else None
+        address = input(f"Address [{contact.address or KEYWORD_CLEAN_UP}]: ").strip()
+        if address:
+            updates['address'] = address
+        elif address == KEYWORD_CLEAN_UP:
+            updates['address'] = None
+        elif address == '':
+            print("Nothing changed. Keeping the current value.")
 
         try:
             phone_book.update_contact(contact, **updates)
